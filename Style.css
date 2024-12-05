@@ -143,15 +143,15 @@ li {
 }
 
 .part2-txt{
-    height: 0%;
+    height: 100%;
     width: 70%;
     margin: auto;
     margin-top: 6rem;
 }
 
 .part1-img{
-    height: 100%;
-    width: 80%;
+    height: 97%;
+    width: 88%;
     margin: auto;
     background-image: url(Screenshot\ 2024-12-04\ at\ 4.21.49\ PM.png);
     background-size: cover;
@@ -183,4 +183,39 @@ li {
     border: none;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.appointment{
+    height: 50vh;
+    width: 200vb;
+    background-color: aliceblue;
+    display: flex;
+}
+.appointment-part2{
+    height: 100%;
+    width: 50%;
+}
+
+.appointment-part1{
+    height: 100%;
+    width: 50%;
+}
+.part1-txt{
+    height: 100%;
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+.part2-img{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+    background-image: url(Screenshot\ 2024-12-05\ at\ 4.32.08\ PM.png);
+}
+
+.part1-txt{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+
 }
