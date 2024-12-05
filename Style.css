@@ -1,0 +1,186 @@
+* {
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.header {
+    height: 8rem;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.header-info {
+    display: flex;
+}
+
+.header-logo {
+    background-image: url(Screenshot\ 2024-12-04\ at\ 11.54.24\ AM.png);
+    height: 100%;
+    width: 10%;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.info1 {
+    display: flex;
+
+}
+
+.info2 {
+    display: flex;
+}
+
+.info1-icon {}
+
+.info2-txt {
+    margin-left: 5px;
+}
+
+.intro {
+    height: 160vh;
+    width: 100%;
+    background-color: rgba(236,241,250,255);
+}
+
+.intro-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.intro-part1 {
+    height: 100%;
+    width: 50%;
+    letter-spacing: 2px;
+
+    
+}
+
+.intro-part2 {
+    height: 50%;
+    width: 50%;
+}
+
+.intro-part1-txt {
+    margin-left: 4rem;
+    margin-top: 3rem;
+    font-weight:400;
+}
+
+.intro-part1-txt>h2 {
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+.intro-part2-img {
+    height: 80%;
+    width: 55%;
+    margin: auto;
+    background-image: url(homepage\ photo.jpeg);
+    background-size: cover;
+    margin-top: 3rem;
+}
+
+.intro-part1-txt>button{
+    background: rgb(2,0,36);
+    background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(9,54,121,0.9178046218487395) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.fa-solid{
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+    align-content: center;
+    margin-right: -1.2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 5px;
+}
+
+.header-info>button{
+    background: rgb(2,0,36);
+    background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(9,54,121,0.9178046218487395) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    height: 2.5rem;
+    width: 14rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.about-container{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.about-part1{
+    height: 100%;
+    width: 50%;
+}
+
+.about-part2{
+    height: 100%;
+    width: 50%;
+}
+
+.part2-txt{
+    height: 0%;
+    width: 70%;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.part1-img{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    background-image: url(Screenshot\ 2024-12-04\ at\ 4.21.49\ PM.png);
+    background-size: cover;
+    margin-top: 1rem;
+}
+
+.line{
+    height: 4px;
+    width: 5rem;
+    border-radius: 10%;
+    background-color: lightgray;
+}
+
+.part2-txt>p{
+    color: grey;
+}
+
+.part2-txt>h3{
+    color: rgb(27, 12, 149);
+}
+
+.part2-txt>button{
+    background: rgb(2,0,36);
+    background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(9,54,121,0.9178046218487395) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
